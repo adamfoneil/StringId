@@ -11,6 +11,14 @@
     <Copyright>Copyright (c) 2020 Adam O'Neil</Copyright>
     <PackageProjectUrl>https://github.com/adamfoneil/StringId</PackageProjectUrl>
     <RepositoryUrl>https://github.com/adamfoneil/StringId</RepositoryUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
