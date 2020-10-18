@@ -9,6 +9,8 @@
     <Product>AO.StringId</Product>
     <Description>Generate random string Id values, with ability to specify lengths and combinations of upper, lower, numeric, and special characters</Description>
     <Copyright>Copyright (c) 2020 Adam O'Neil</Copyright>
+    <PackageProjectUrl>https://github.com/adamfoneil/StringId</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/adamfoneil/StringId</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
