@@ -47,7 +47,7 @@ namespace StringId.Library
 
             StringBuilder result = new StringBuilder();
             
-            byte[] randomBytes = new byte[length - result.Length];
+            byte[] randomBytes = new byte[length];
             _generator.GetNonZeroBytes(randomBytes);
             for (int i = 0; i < length; i++) result.Append(charMap[randomBytes[i]]);               
             return result.ToString();
