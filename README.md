@@ -22,4 +22,4 @@ Might produce `KRHD-OZBB-CVUU`
 
 The [unit test](https://github.com/adamfoneil/StringId/blob/master/Testing/StringIdTests.cs#L11) for Id uniqueness achieves 1 million unique 9-character Ids. You can of course create Ids of any length.
 
-The original idea for this came from a [blog post by Scott Lilly](https://scottlilly.com/create-better-random-numbers-in-c/).
+The original idea for this came from a [blog post by Scott Lilly](https://scottlilly.com/create-better-random-numbers-in-c/), but I adapted it for creating random strings.
