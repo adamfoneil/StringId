@@ -53,6 +53,8 @@ namespace StringId.Library
             return result.ToString();
         }
 
+        public static string NewPassword() => New(16, StringIdRanges.Lower | StringIdRanges.Upper | StringIdRanges.Numeric | StringIdRanges.Special);
+
         private static Dictionary<byte, char> CreateByteCharMap(string source)
         {
             var charArray = source.ToCharArray();
