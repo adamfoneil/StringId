@@ -18,7 +18,14 @@ string result = new StringIdBuilder()
                   .Add(4, StringIdRanges.Upper)
                   .Build();
 ```
-Might produce `KRHD-OZBB-CVUU`
+Might produce `KRHD-OZBB-CVUU`. This capability was inspired by [Keywielder](https://github.com/asakura89/Keywielder).
+
+There's also a [NewPassword]() method that generates a high-quality 16-character password:
+
+```csharp
+var pwd = StringId.NewPassword();
+```
+Might produce `BBnHMLju8>8q!cTT`.
 
 The [unit test](https://github.com/adamfoneil/StringId/blob/master/Testing/StringIdTests.cs#L11) for Id uniqueness achieves 1 million unique 9-character Ids. You can of course create Ids of any length.
 
