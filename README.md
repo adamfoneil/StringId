@@ -3,7 +3,7 @@
 Use this to create random string Ids of a specified length and combination of [character ranges](https://github.com/adamfoneil/StringId/blob/master/StringId/StringIdBuilder.cs#L10-L16). For example:
 
 ```csharp
-var id = StringId.New(9, StringIdRanges.Upper | StringIdRanges.Numeric);
+var id = StringId.New(9, StringIdRanges.Lower | StringIdRanges.Numeric);
 ```
 Might produce `5m65urzga`
 
