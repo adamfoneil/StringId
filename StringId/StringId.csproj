@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>AO.StringId</PackageId>
+    <Authors>Adam O'Neil</Authors>
+    <Company>Adam O'Neil</Company>
+    <Product>AO.StringId</Product>
+    <Description>Generate random string Id values, with ability to specify lengths and combinations of upper, lowrer, numeric, and special characters</Description>
+    <Copyright>Copyright (c) 2020 Adam O'Neil</Copyright>
   </PropertyGroup>
 
 </Project>
