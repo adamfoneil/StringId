@@ -21,7 +21,7 @@ namespace StringId.Library
 
             // We're assuming that a million 9-character Ids should be unique.
             // We'd likely have to tune this assumption for different Id lengths and number of iterations
-        }
+        }        
 
         [TestMethod]
         public void ChainResults()
@@ -35,6 +35,17 @@ namespace StringId.Library
                 .Build();
 
             Assert.IsTrue(result.Length == 14);
+        }
+
+        [TestMethod]
+        public void CreatePasswords()
+        {
+            var pwds = new HashSet<string>();
+            const int iterations = 10;
+            for (int i = 0; i < iterations; i++) pwds.Add(StringId.NewPassword());
+
+            Assert.IsTrue(pwds.Count == iterations);
+            Assert.IsTrue(pwds.All(id => id.Length == 16));
         }
     }
 }
