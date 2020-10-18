@@ -12,8 +12,8 @@
     <PackageProjectUrl>https://github.com/adamfoneil/StringId</PackageProjectUrl>
     <RepositoryUrl>https://github.com/adamfoneil/StringId</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Version>1.0.1</Version>
-    <PackageReleaseNotes>added StringId.NewPassword method</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>changed namespace to prevent conflict with StringId class name</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

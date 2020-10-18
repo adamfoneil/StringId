@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace StringId.Library
+namespace StringIdLibrary
 {
     [Flags]
     public enum StringIdRanges
