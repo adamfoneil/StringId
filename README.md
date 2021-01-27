@@ -20,7 +20,7 @@ string result = new StringIdBuilder()
 ```
 Might produce `KRHD-OZBB-CVUU`. This capability was inspired by [Keywielder](https://github.com/asakura89/Keywielder).
 
-There's also a [NewPassword]() method that generates a high-quality 16-character password:
+There's also a [NewPassword](https://github.com/adamfoneil/StringId/blob/master/StringId/StringIdBuilder.cs#L56) method that generates a high-quality 16-character password:
 
 ```csharp
 var pwd = StringId.NewPassword();
